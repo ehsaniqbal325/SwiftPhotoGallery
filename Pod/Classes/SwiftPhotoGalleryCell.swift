@@ -20,6 +20,7 @@ open class SwiftPhotoGalleryCell: UICollectionViewCell {
     override init(frame: CGRect) {
 
         imageView = UIImageView()
+        imageView.tintColor = .white
         imageView.translatesAutoresizingMaskIntoConstraints = false
         scrollView = UIScrollView(frame: frame)
         scrollView.translatesAutoresizingMaskIntoConstraints = false
