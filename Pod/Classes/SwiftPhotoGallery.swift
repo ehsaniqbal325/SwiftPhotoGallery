@@ -102,7 +102,7 @@ public class SwiftPhotoGallery: UIViewController {
     
     public var isSwipeToDismissEnabled: Bool = true
     public var isRevolvingCarouselEnabled: Bool = true
-    public var isEditingMood: Bool = true
+    public var isEditingMood: Bool = false
     private var pageBeforeRotation: Int = 0
     private var currentIndexPath: IndexPath = IndexPath(item: 0, section: 0)
     private var flowLayout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
